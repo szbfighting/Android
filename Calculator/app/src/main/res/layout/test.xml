@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="百度\nwww.baidu.com"
+        android:gravity="center_horizontal"
+        android:autoLink="web"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:password="true"
+        android:text="666666666"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="男"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="女"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="666"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="red"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="blue" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="black"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:max="100" />
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:text="button1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="button2"/>
+</TableRow>
+</LinearLayout>
