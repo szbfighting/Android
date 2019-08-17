@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--androidx.percentlayout.widget.PercentFrameLayout--><LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--<Button
+        android:id="@+id/button_1"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        android:text="Buton1"
+        android:textIsSelectable="true"/>
+    <Button
+        android:id="@+id/button_2"
+        android:layout_gravity="right|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        android:text="Button2"
+        android:textIsSelectable="true"/>
+    <Button
+        android:id="@+id/button_3"
+        android:layout_gravity="left|bottom"
+        android:text="Button3"
+        android:textIsSelectable="true"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"/>
+    <Button
+        android:id="@+id/button_4"
+        android:layout_gravity="right|bottom"
+        android:text="Button4"
+        android:textIsSelectable="true"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%" />-->
+    <!--<include layout="@layout/title"/>-->
+
+    <com.example.applicationui.TitleLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:id="@+id/button_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="666"/>
+
+</LinearLayout>
+<!--</androidx.percentlayout.widget.PercentFrameLayout>-->
