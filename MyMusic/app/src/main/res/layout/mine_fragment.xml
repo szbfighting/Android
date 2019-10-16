@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <include layout="@layout/selfinfo"/>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:elevation="6dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="活动中心"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="#000000"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="会员中心"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"/>
+    </RelativeLayout>
+
+    <include layout="@layout/my_musicinfo"/>
+</LinearLayout>
